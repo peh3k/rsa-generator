@@ -26,7 +26,6 @@ def generate_key(p, q):
     return e,n,d
 
 def is_prime(n, k=5):
-    """Verifica se um número é primo usando o teste de Miller-Rabin"""
     if n <= 1:
         return False
     if n <= 3:
